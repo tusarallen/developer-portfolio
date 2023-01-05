@@ -92,7 +92,7 @@ section {
 
 .section-title {
     text-align: center;
-    margin-bottom: 120px;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 35px;
 }
@@ -176,4 +176,26 @@ section {
 .resume-button{
     margin-top: 50px;
     text-align: center;
+}
+/* contact styles  */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 100px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact input[type="text"],input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 8px 15px;
+}
+input{
+    height: 64px;
+}
+.contact a{
+    text-decoration: none;
 }
